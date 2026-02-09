@@ -1,0 +1,19 @@
+Bitácora de errores/procedimientos
+1. **Carpeta creada durante tutorial del github, no requería permisos especiales.
+2. **Creado utilizando cat > bitacora.txt e insertando el texto, no requería permisos
+adicionales en esa carpeta.
+3. Ejecuté tanto apt update y apt upgrate (para actualizar la lista de actualizaciones
+de software disponibles e instalarlas), ambas acciones requieren privilegios admin
+con los cuales estoy ejecutando los comandos (ingresando contraseña). Finalicé
+corriendo apt update de nuevo para verificar que todos los paquetes estaban 
+actualizados.
+4. Instalar Neofetch
+* Muestra información acerca de mi sistema operativo.
+No me mostró ningún error, al momento de instalar, el paquete ya estaba instalado y 
+actualizado en el pc.
+5. Al entrar a la carpeta raíz, se necesitan permisos especiales (superusuario). Por eso
+tuve que usar sudo y sudo su para ejecutar este punto.
+6. También necesitaba permisos SU, el error se resolvió anteponiendo "sudo" antes del
+comando para copiar el archivo.
+7. Ya tenía el SU activado, copié sin problemas el archivo hostname, agregué mi id en la
+copia e imprimí los contenidos del archivo.
